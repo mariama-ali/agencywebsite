@@ -7,7 +7,7 @@ const Intro = () => {
         <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh"/>
         <Circle backgroundColor="#01c686" right="-40vh"/>
       <div className={styles.card}>
-          <h1 className={styles.title}>AV0CAD0<span>DIGITAL PRODUCT AGENCY</span></h1>
+          <h1 className={styles.title}><span className={styles.brand}>AV0CAD0</span> DIGITAL PRODUCT AGENCY</h1>
           <p className={styles.desc}>
               Create live segments and target the right peope for messages based on their behaviors.
           </p>
