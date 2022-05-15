@@ -1,10 +1,10 @@
-import Image from "next/image"
-import Link from "next/link"
-import style from "../styles/Service.module.css"
+import style from "../styles/Services.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
-const Service = ({ services }) => {
-    return (
-<div className={style.container}>
+const Services = ({ services }) => {
+  return (
+    <div className={style.container}>
       <div className={style.info}>
         <h1 className={style.title}>What We Can Do?</h1>
         <h1 className={style.subtitle}>Services we can help you with</h1>
@@ -20,7 +20,6 @@ const Service = ({ services }) => {
                       className={style.video}
                       src={`/img/${service.video}`}
                       autoPlay
-                      muted
                       loop
                     />
                   ) : (
@@ -40,7 +39,7 @@ const Service = ({ services }) => {
         </div>
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default Service
+export default Services;

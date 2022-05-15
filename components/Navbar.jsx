@@ -5,10 +5,10 @@ import styles from '../styles/Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-        <Link href="/"> AV0CAD0</Link>
+        <Link href="/">AV0CAD0</Link>
         <ul className={styles.list}>
             <li className={styles.listItem}>
-                <Link href="/products/design">DESING</Link>
+                <Link href="/products/design">DESIGN</Link>
             </li>
             <li className={styles.listItem}>
                 <Link href="/products/development">DEVELOPEMNT</Link>
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <Link href="/products/photography">PHOTOGRAPHY</Link>
             </li>
             <li className={styles.listItem}>
-                <Link href="/products/contact">CONTACT</Link>
+                <Link href="/contact">CONTACT</Link>
             </li>         
         </ul>
     </div>
